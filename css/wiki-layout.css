@@ -360,12 +360,23 @@ footer {
   border-radius: 4px;
 }
 
+.til-form input,
+.til-form textarea {
+  padding: 10px 12px;
+  border: 1px solid var(--divider-color);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background-color: #0f1c33;        /* 추가 */
+  color: var(--font-default-color);  /* 추가 */
+}
+
 /* 변수 */
 :root {
-  --primary-color: #4a7c59;
-  --nav-bg-color: #fff;
-  --hero-bg-color: #f8faf8;
-  --card-bg-color: #fafafa;
-  --divider-color: #e8e8e8;
-  --font-default-color: #333;
+  --primary-color: #c9a84c;
+  --nav-bg-color: #1a2340;
+  --hero-bg-color: #111827;
+  --card-bg-color: #1e2d47;
+  --divider-color: #2e3f5c;
+  --font-default-color: #e8e8e8;
 }

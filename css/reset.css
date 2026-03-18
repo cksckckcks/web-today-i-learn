@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  background-color: #f4f6f5;
+  background-color: var(--hero-bg-color);
   line-height: 1;
 }
 
